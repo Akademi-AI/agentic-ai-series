@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "agentic-series"
+version = "0.1.0"
+description = ""
+authors = ["danielsyahputra <dnlshp@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<=3.13"
+crewai = {extras = ["tools"], version = "^0.30.11"}
+langchain-groq = "^0.1.4"
+duckduckgo-search = "^6.1.1"
+python-dotenv = "^1.0.1"
+pydantic = "^2.10.6"
+
+[tool.poetry.group.notebook.dependencies]
+jupyterlab = "^4.3.5"
+ipywidgets = "^8.1.5"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
