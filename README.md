@@ -1,2 +1,2 @@
-# Agemtic AI Series
+# Agentic AI Series
 
