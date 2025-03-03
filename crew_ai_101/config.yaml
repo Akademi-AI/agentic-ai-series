@@ -1,0 +1,38 @@
+{
+  "agents": {
+    "fact_checker_agent": {
+      "backstory": "Specialize in detecting misinformation",
+      "goal": "Verify research findings and ensure factual accuracy",
+      "role": "Fact-checking specialist"
+    },
+    "research_agent": {
+      "backstory": "Specialize in detecting misinformation",
+      "goal": "Verify research findings and ensure factual accuracy",
+      "role": "Fact-checking specialist"
+    },
+    "summarization_agent": {
+      "backstory": "Specialize in detecting misinformation",
+      "goal": "Verify research findings and ensure factual accuracy",
+      "role": "Fact-checking specialist"
+    }
+  },
+  "tasks": {
+    "fact_checking_task": {
+      "assigned_agent": "fact_checker_agent",
+      "depends_on": "summarization_task",
+      "description": "cross-checked the summarized information",
+      "expected_output": "A fact-checked and verified research summary"
+    },
+    "research_task": {
+      "assigned_agent": "research_agent",
+      "description": "cross-checked the summarized information",
+      "expected_output": "A fact-checked and verified research summary"
+    },
+    "summarization_task": {
+      "assigned_agent": "summarization_agent",
+      "depends_on": "research_task",
+      "description": "cross-checked the summarized information",
+      "expected_output": "A fact-checked and verified research summary"
+    }
+  }
+}

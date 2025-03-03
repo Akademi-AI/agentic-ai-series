@@ -1,0 +1,27 @@
+research_task:
+    description: >
+        Use the SerperDevTool to find the most relevant and 
+        recent data on {topic}.
+    agent: research_agent
+    expected_output: >
+        A detailed research report with key insights and 
+        source references.
+    verbose: true
+
+summarization_task:
+    description: >
+        Summarize the research findings into a well-structured, 
+        concise report.
+    agent: summarization_agent
+    expected_output: >
+        A summary highlighting the key takeaways from the research.
+    verbose: true
+
+fact_checking_task:
+    description: >
+        Cross-check the summarized information for accuracy and 
+        remove any misleading claims.
+    agent: fact_checker_agent
+    expected_output: >
+        A fact-checked and verified research summary.
+    verbose: true
