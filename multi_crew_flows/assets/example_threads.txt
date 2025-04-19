@@ -1,0 +1,85 @@
+# Tweet 1:
+Attention mechanisms in transformers, explained simply (with diagrams) 🧵👇
+
+# Tweet 2:
+Why are attention mechanisms so powerful in transformers? The key insight: they allow the model to focus on relevant parts of the input sequence when making predictions.
+
+Watch the difference in translation quality:
+- With attention → 94% accuracy
+- Without attention → 67% accuracy
+
+Let's explore how they work!
+
+# Tweet 3:
+First, we need to understand the core problem: processing sequences.
+
+Traditional neural networks struggle with:
+- Variable length inputs
+- Capturing long-range dependencies
+- Parallelization during training
+
+Attention mechanisms solve these problems elegantly. Here's how:
+
+# Tweet 4:
+In traditional sequence models (like RNNs), information flows sequentially through the network. This creates bottlenecks and makes it hard to capture relationships between distant words.
+
+Attention allows each position to directly connect with every other position in one step!
+
+# Tweet 5:
+The magic happens through three key vectors for each token:
+- Query (Q): What information am I looking for?
+- Key (K): What information do I contain?
+- Value (V): What information do I provide if selected?
+
+These vectors are created through learnable linear projections from the input embeddings.
+
+# Tweet 6:
+The attention mechanism works like this:
+1. Calculate compatibility between Q of current token and K of all tokens
+2. Apply softmax to get attention weights (percentages adding to 100%)
+3. Take weighted sum of V vectors using these weights
+
+This creates context-aware representations!
+
+# Tweet 7:
+Multi-head attention takes this further:
+- Run multiple attention operations in parallel
+- Each "head" can focus on different aspects of relationships
+- Some heads might track syntactic dependencies, others semantic relationships
+- Results are concatenated and projected to the original dimension
+
+Check this visualization:
+
+# Tweet 8:
+Self-attention vs. cross-attention:
+- Self-attention: Q, K, V all come from same sequence (like encoder analyzing input text)
+- Cross-attention: Q from one sequence, K/V from another (like decoder using encoder's information)
+
+This distinction enables the encoder-decoder architecture that powers most modern LLMs.
+
+# Tweet 9:
+Scaling attention to longer sequences has been a key challenge. The standard attention has O(n²) complexity in sequence length!
+
+Solutions include:
+- Sparse attention patterns
+- Low-rank approximations
+- Sliding window approaches
+- Flash attention optimizations
+
+I'll cover these techniques in a future thread.
+
+# Tweet 10:
+Attention isn't just for language! It's now powering advances in:
+- Computer vision (Vision Transformers)
+- Audio processing (Audio transformers)
+- Protein folding (AlphaFold)
+- Multi-modal systems (text+vision)
+
+The ability to model relationships between elements makes it incredibly versatile.
+
+# Tweet 11:
+That's a wrap! I hope this helped demystify attention mechanisms.
+
+For more in-depth AI explanations and engineering insights, follow me!
+
+Tomorrow: How positional encodings let transformers understand sequence order despite their "orderless" architecture.

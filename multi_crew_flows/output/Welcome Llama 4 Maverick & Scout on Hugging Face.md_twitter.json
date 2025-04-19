@@ -1,0 +1,60 @@
+{
+  "topic": "Welcome Llama 4 Maverick & Scout on Hugging Face",
+  "tweets": [
+    {
+      "content": "Welcome Llama 4 Maverick & Scout on Hugging Face \ud83e\udd99\ud83d\ude80",
+      "is_hook": true,
+      "media_urls": []
+    },
+    {
+      "content": "Llama 4 models are here! These new AI powerhouses from Meta combine Multimodal capabilities with state-of-the-art architecture. Let's dive into what sets them apart \ud83e\udd16\ud83d\udca1",
+      "is_hook": false,
+      "media_urls": []
+    },
+    {
+      "content": "What's the core of Llama 4 Maverick & Scout? These models feature Mixture-of-Experts (MoE) architecture and native Multimodality, allowing them to handle text, image, and more!",
+      "is_hook": false,
+      "media_urls": []
+    },
+    {
+      "content": "Integration with Hugging Face brings numerous benefits: easy access via model checkpoints, seamless use with transformers, and support for quantization and temperature tuning.",
+      "is_hook": false,
+      "media_urls": [
+        "https://huggingface.co/blog/xet-on-the-hub"
+      ]
+    },
+    {
+      "content": "Innovative architecture choices like NoPE layers, Chunked attention, and iRoPE make Llama 4 incredibly efficient with long context capabilities.",
+      "is_hook": false,
+      "media_urls": []
+    },
+    {
+      "content": "Want to get Llama 4 up and running? Here's a code snippet for using Llama 4 models with the Hugging Face transformers library. Perfect for your next AI project! \ud83d\udee0\ufe0f\ud83d\udc0d",
+      "is_hook": false,
+      "media_urls": [
+        "https://huggingface.co/datasets/huggingface/documentation-images/resolve/0052a70beed5bf71b92610a43a52df6d286cd5f3/diffusers/rabbit.jpg",
+        "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/datasets/cat_style_layout.png"
+      ]
+    },
+    {
+      "content": "Evaluation scores reveal Llama 4's prowess, outshining previous iterations in multiple benchmarks. These models are top performers in the AI field!",
+      "is_hook": false,
+      "media_urls": []
+    },
+    {
+      "content": "Llama 4 models redefine possibilities with their advanced features and Hugging Face integration, benefiting real-world applications from language to vision tasks.",
+      "is_hook": false,
+      "media_urls": []
+    },
+    {
+      "content": "A big thanks to the dedicated teams and individuals who made Llama 4 a reality. Their hard work is propelling AI innovation forward. \ud83d\ude4c\ud83d\udc68\u200d\ud83d\udcbb\ud83d\udc69\u200d\ud83d\udcbb",
+      "is_hook": false,
+      "media_urls": []
+    },
+    {
+      "content": "Intrigued by the capabilities of Llama 4 Maverick & Scout? Explore how these models can enhance your projects today by visiting the Hugging Face Hub!",
+      "is_hook": false,
+      "media_urls": []
+    }
+  ]
+}
